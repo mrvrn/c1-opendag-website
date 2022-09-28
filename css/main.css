@@ -112,6 +112,12 @@ header{
   color: #2add5d;
 }
 
+.nav-a{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
 .blokkenh2{
   margin-top: 70px;
   display: flex;
@@ -130,7 +136,7 @@ header{
 .blokken p{
   margin-left: 20px;
   box-shadow: 8px 8px 4px #393939;
-  /* background-color: #2add5d; */
+  background-color: #2add5d;
   padding: 5px;
   border-radius: 5px;
 }
