@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/2eb292a73a.js" crossorigin="anonymous"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -48,18 +49,20 @@
   </header>
   <main>
     <div class="container">
-        <div id="blokken">
-            <h2 class="blokkenh2">Indeling van de blokken</h2>
-            <div class="blokken">
-                <img src="img/opleidingsoverzicht3.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, molestias? Temporibus accusamus tempore, nostrum suscipit cumque nihil, vel quidem cum cupiditate ratione quibusdam quasi adipisci asperiores voluptates nam reprehenderit velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates pariatur, sapiente voluptas officiis laboriosam voluptatem quam eaque nulla in ab a animi porro, aspernatur fugiat quia consequuntur quos sint? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, expedita ipsam culpa quasi saepe vitae eligendi voluptatem veniam quibusdam aliquam nemo pariatur qui illum corrupti excepturi? Voluptatibus commodi ex quidem!</p>
+        <div class="background-firstsection">
+            <div id="blokken">
+                <h2 class="blokkenh2">Indeling van de blokken</h2>
+                <div class="blokken">
+                    <img src="img/opleidingsoverzicht3.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, molestias? Temporibus accusamus tempore, nostrum suscipit cumque nihil, vel quidem cum cupiditate ratione quibusdam quasi adipisci asperiores voluptates nam reprehenderit velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates pariatur, sapiente voluptas officiis laboriosam voluptatem quam eaque nulla in ab a animi porro, aspernatur fugiat quia consequuntur quos sint? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, expedita ipsam culpa quasi saepe vitae eligendi voluptatem veniam quibusdam aliquam nemo pariatur qui illum corrupti excepturi? Voluptatibus commodi ex quidem!</p>
+                </div>
             </div>
-        </div>
-        <div id="rooster">
-            <h2 class="roosterh2">Rooster eerstejaars</h2>
-            <div class="rooster">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, molestias? Temporibus accusamus tempore, nostrum suscipit cumque nihil, vel quidem cum cupiditate ratione quibusdam quasi adipisci asperiores voluptates nam reprehenderit velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates pariatur, sapiente voluptas officiis laboriosam voluptatem quam eaque nulla in ab a animi porro, aspernatur fugiat quia consequuntur quos sint? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, expedita ipsam culpa quasi saepe vitae eligendi voluptatem veniam quibusdam aliquam nemo pariatur qui illum corrupti excepturi? Voluptatibus commodi ex quidem!</p>
-                <img src="img/rooster.jpg" alt="">
+            <div id="rooster">
+                <h2 class="roosterh2">Rooster eerstejaars</h2>
+                <div class="rooster">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, molestias? Temporibus accusamus tempore, nostrum suscipit cumque nihil, vel quidem cum cupiditate ratione quibusdam quasi adipisci asperiores voluptates nam reprehenderit velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates pariatur, sapiente voluptas officiis laboriosam voluptatem quam eaque nulla in ab a animi porro, aspernatur fugiat quia consequuntur quos sint? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, expedita ipsam culpa quasi saepe vitae eligendi voluptatem veniam quibusdam aliquam nemo pariatur qui illum corrupti excepturi? Voluptatibus commodi ex quidem!</p>
+                    <img src="img/rooster.jpg" alt="">
+                </div>
             </div>
         </div>
         <div class="locatie-background" id="location">
@@ -70,47 +73,49 @@
             </div>
         </div> 
         <div id="vakken">
-            <h2 class="vakkenh2">Vakken eerstejaars</h2>
-            <div class="vakken">
-                <div class="vak">
-                    <h3>NATIVE</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, alias ratione similique consequatur aspernatur repellendus ipsa dolores quasi ab commodi error aut numquam tempora ipsum eveniet dignissimos molestiae dolor nemo.</p>
-                </div>
-                <div class="vak">
-                    <h3>WEB</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse eaque consequatur minima totam illum amet provident ex quasi reprehenderit aut, architecto, eum maxime et tempora autem aperiam sint. Eius.</p>
-                </div>
-                <div class="vak">
-                    <h3>PRA</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ad autem beatae pariatur animi similique veniam! Aperiam repudiandae cum quia ea. Excepturi quam fugiat atque reprehenderit corporis labore, sunt numquam.</p>
-                </div>
-                <div class="vak">
-                    <h3>PRO</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, pariatur! Velit repellat voluptates illum placeat voluptatibus repudiandae nihil laborum, molestias commodi iste eum et architecto neque ad! Qui, fuga libero.</p>
-                </div>
-                <div class="vak">
-                    <h3>Eng</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dicta, iusto quidem in nulla tenetur numquam ratione expedita eaque temporibus quis aperiam, consequatur, excepturi eveniet obcaecati explicabo. Id, soluta a.</p>
-                </div>
-                <div class="vak">
-                    <h3>Ned</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, architecto sit totam iste nisi voluptatibus laudantium corrupti officia maxime beatae reprehenderit quo ea placeat vero quibusdam suscipit modi ab nulla.</p>
-                </div>
-                <div class="vak">
-                    <h3>Rekenen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod esse est, doloremque doloribus deserunt culpa accusamus eos amet vel dolorem eum saepe optio, natus tempore similique delectus commodi voluptate voluptas?</p>
-                </div>
-                <div class="vak">
-                    <h3>Studieloopbaanbegeleiding</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem, ex laudantium et id doloribus illo quod temporibus vero unde nobis est saepe non laboriosam? Explicabo odio corporis deserunt. Impedit.</p>
-                </div>
-                <div class="vak">
-                    <h3>Burgerschap</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, quod minima, cupiditate totam ad sed ducimus illum, pariatur voluptatem ex atque eveniet. Sunt pariatur est suscipit vel consectetur unde.</p>
-                </div>
-                <div class="vak">
-                    <h3>Por</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, quod minima, cupiditate totam ad sed ducimus illum, pariatur voluptatem ex atque eveniet. Sunt pariatur est suscipit vel consectetur unde.</p>
+            <div class="vakken-background">
+                <h2 class="vakkenh2">Vakken eerstejaars</h2>
+                <div class="vakken">
+                    <div class="vak">
+                        <h3>NATIVE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, alias ratione similique consequatur aspernatur repellendus ipsa dolores quasi ab commodi error aut numquam tempora ipsum eveniet dignissimos molestiae dolor nemo.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>WEB</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse eaque consequatur minima totam illum amet provident ex quasi reprehenderit aut, architecto, eum maxime et tempora autem aperiam sint. Eius.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>PRA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ad autem beatae pariatur animi similique veniam! Aperiam repudiandae cum quia ea. Excepturi quam fugiat atque reprehenderit corporis labore, sunt numquam.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>PRO</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, pariatur! Velit repellat voluptates illum placeat voluptatibus repudiandae nihil laborum, molestias commodi iste eum et architecto neque ad! Qui, fuga libero.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>Eng</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dicta, iusto quidem in nulla tenetur numquam ratione expedita eaque temporibus quis aperiam, consequatur, excepturi eveniet obcaecati explicabo. Id, soluta a.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>Ned</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, architecto sit totam iste nisi voluptatibus laudantium corrupti officia maxime beatae reprehenderit quo ea placeat vero quibusdam suscipit modi ab nulla.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>Rekenen</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod esse est, doloremque doloribus deserunt culpa accusamus eos amet vel dolorem eum saepe optio, natus tempore similique delectus commodi voluptate voluptas?</p>
+                    </div>
+                    <div class="vak">
+                        <h3>Studieloopbaanbegeleiding</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem, ex laudantium et id doloribus illo quod temporibus vero unde nobis est saepe non laboriosam? Explicabo odio corporis deserunt. Impedit.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>Burgerschap</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, quod minima, cupiditate totam ad sed ducimus illum, pariatur voluptatem ex atque eveniet. Sunt pariatur est suscipit vel consectetur unde.</p>
+                    </div>
+                    <div class="vak">
+                        <h3>Por</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, quod minima, cupiditate totam ad sed ducimus illum, pariatur voluptatem ex atque eveniet. Sunt pariatur est suscipit vel consectetur unde.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -143,6 +148,36 @@
         </div>
     </div>       
   </main>
+  <footer>
+    <div class="container">
+        <div class="contact">
+            <h2 class="contacth2">Contact</h2>
+        </div>
+        <div class="contactgegevens">
+            <div class="gegevens">
+                <div class="adres">
+                    <h4>Adres:</h4>
+                    <p>Terheijdenseweg 350</p>
+                </div>
+                <div class="telefoon">
+                    <h4>Telefoonnummer:</h4>
+                    <p>088 209 8000</p>
+                </div>
+            </div>
+            <div class="social-media">
+                <h4>Social Media</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/curioonderwijsgroep/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/curioonderwijs"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/curioonderwijs"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/curioonderwijsgroep"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://nl.linkedin.com/school/curioonderwijsgroep/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=31622089133"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>

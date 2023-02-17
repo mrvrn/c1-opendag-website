@@ -88,7 +88,6 @@ textarea {
    ========================================================================== */
 body{
   font-family: Arial;
-  background-image: linear-gradient(to top left,#004fff, #2add5d);
 }
 
    .container{
@@ -123,8 +122,15 @@ header{
   width: 500px;
 }
 
-.blokkenh2{
+.background-firstsection{
+  background-color: #233251;
+  padding: 20px;
   margin-top: 70px;
+  border-radius: 5px;
+}
+
+.blokkenh2{
+  color: #2add5d;
   display: flex;
   justify-content: end;
 }
@@ -140,15 +146,17 @@ header{
 
 .blokken p{
   margin-left: 20px;
-  box-shadow: 8px 8px 4px #393939;
+  /*box-shadow: 8px 8px 4px #393939;*/
   background-color: #2add5d;
   padding: 10px;
   border-radius: 5px;
+  color: #233251;
   
 }
 
 .roosterh2{
   margin-top: 70px;
+  color: #2add5d;
 }
 
 .rooster{
@@ -162,28 +170,27 @@ header{
 
 .rooster p{
   margin-right: 20px;
-  box-shadow: 8px 8px 4px #393939;
+  /*box-shadow: 8px 8px 4px #393939;*/
   background-color: #2add5d;
+  color: #233251;
   border-radius: 5px;
   padding: 10px;
 }
 
 .locatie-background{
-  background-image: linear-gradient(to top left, #2add5d, #004fff);
+  /*background-image: linear-gradient(to top left, #2add5d, #004fff);*/
+  background-color: #fec20a;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 70px;
   border-radius: 5px;
   box-shadow: 8px 8px 4px #393939;
+  color: #034d34;
 }
   
 #locatie { 
   width: 600px;
   margin: 0 auto;
-}
-
-.locatieh2{
-  color: #ffffff;
 }
   
 #current-image { 
@@ -196,14 +203,6 @@ header{
   margin-top: 20px;
 }
 
-/* .thumb { 
-    width: 80px; 
-    height: 80px; 
-    object-fit: cover; 
-    margin-right: 10px; 
-    cursor: pointer;
-  } */
-
 .thumb{
   width: 80px;
   height: 80px;
@@ -212,8 +211,15 @@ header{
   cursor: pointer;
 }
 
-.vakkenh2{
+.vakken-background{
+  background-color: #05357f;
+  padding: 20px;
   margin-top: 70px;
+  border-radius: 5px;
+}
+
+.vakkenh2{  
+  color: #f5aac9;
 }
 
 .vakken{
@@ -225,9 +231,9 @@ header{
   padding: 5px;
   margin: 7px;
   border-radius: 5px;
-  background-color: #004fff;
-  box-shadow: 8px 8px 4px #393939;
-  color: #ffffff;
+  background-color: #f5aac9;
+  /*box-shadow: 8px 8px 4px #393939;*/
+  color: #05357f;
 }
 
 .versnellen{
@@ -240,14 +246,17 @@ header{
   margin-top: 70px;
 }
 
-.smoelenh2{
+#smoelen{
+  background-color: #56d9ee;
+  padding: 20px;
   margin-top: 70px;
+  color: #034c39;
+  border-radius: 5px;
 }
 
 .smoelenboekje{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 
 .smoel{
@@ -261,6 +270,33 @@ header{
   box-shadow: 10px 10px 5px #393939;
 }
 
+footer{
+  margin-top: 20px;
+  background-color: #004fff;
+  color: #2add5d;
+}
+
+footer a{
+  text-decoration: none;
+  color: #2add5d;
+}
+
+.contact{
+  border-bottom: 1px #2add5d solid;
+}
+
+.contacth2{
+  padding-top: 20px;
+}
+
+.contactgegevens{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links a{
+  margin-right: 5px;
+}
 
 /* ==========================================================================
    Helper classes
