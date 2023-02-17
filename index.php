@@ -42,6 +42,7 @@
                     <a href="#vakken">Vakken</a>
                     <a href="#versnellen">Versnellen</a>
                     <a href="#smoelen">Smoelenboekje</a>
+                    <a href="#contact-footer">Contact</a>
                 </div>      
             </div>                        
         </nav>
@@ -148,7 +149,7 @@
         </div>
     </div>       
   </main>
-  <footer>
+  <footer id="contact-footer">
     <div class="container">
         <div class="contact">
             <h2 class="contacth2">Contact</h2>
@@ -156,11 +157,11 @@
         <div class="contactgegevens">
             <div class="gegevens">
                 <div class="adres">
-                    <h4>Adres:</h4>
+                    <h4>Adres</h4>
                     <p>Terheijdenseweg 350</p>
                 </div>
                 <div class="telefoon">
-                    <h4>Telefoonnummer:</h4>
+                    <h4>Telefoonnummer</h4>
                     <p>088 209 8000</p>
                 </div>
             </div>

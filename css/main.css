@@ -114,6 +114,7 @@ header{
 .navbar a{
   text-decoration: none;
   color: #2add5d;
+  padding-right: 15px;
 }
 
 .nav-a{
@@ -296,6 +297,10 @@ footer a{
 
 .social-links a{
   margin-right: 5px;
+}
+
+.social-links a:hover{
+  color: #034c39;
 }
 
 /* ==========================================================================
