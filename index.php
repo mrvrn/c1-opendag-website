@@ -153,6 +153,7 @@
     <div class="container">
         <div class="contact">
             <h2 class="contacth2">Contact</h2>
+            <h2><a href="mailto:infopunt@curio.nl">infopunt@curio.nl</a></h2>
         </div>
         <div class="contactgegevens">
             <div class="gegevens">

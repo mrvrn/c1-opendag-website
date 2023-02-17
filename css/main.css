@@ -284,9 +284,11 @@ footer a{
 
 .contact{
   border-bottom: 1px #2add5d solid;
+  display: flex;
+  justify-content: space-between;
 }
 
-.contacth2{
+.contact h2{
   padding-top: 20px;
 }
 
@@ -300,7 +302,11 @@ footer a{
 }
 
 .social-links a:hover{
-  color: #034c39;
+  color: #ffbf03;
+}
+
+.contact a:hover{
+  color: #ffbf03;
 }
 
 /* ==========================================================================
