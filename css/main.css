@@ -86,7 +86,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.container{
+body{
+  font-family: Arial;
+  background-image: linear-gradient(to top left,#004fff, #2add5d);
+}
+
+   .container{
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -137,8 +142,9 @@ header{
   margin-left: 20px;
   box-shadow: 8px 8px 4px #393939;
   background-color: #2add5d;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
+  
 }
 
 .roosterh2{
@@ -158,8 +164,52 @@ header{
   margin-right: 20px;
   box-shadow: 8px 8px 4px #393939;
   background-color: #2add5d;
-  padding: 5px;
   border-radius: 5px;
+  padding: 10px;
+}
+
+.locatie-background{
+  background-image: linear-gradient(to top left, #2add5d, #004fff);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 70px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 4px #393939;
+}
+  
+#locatie { 
+  width: 600px;
+  margin: 0 auto;
+}
+
+.locatieh2{
+  color: #ffffff;
+}
+  
+#current-image { 
+  width: 100%;
+}
+
+#image-thumbs{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .thumb { 
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+    margin-right: 10px; 
+    cursor: pointer;
+  } */
+
+.thumb{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .vakkenh2{

@@ -18,6 +18,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -36,6 +37,7 @@
                 <div class="nav-a"> 
                     <a href="#blokken">Blokken</a>
                     <a href="#rooster">Rooster</a>
+                    <a href="#location">Locatie</a>
                     <a href="#vakken">Vakken</a>
                     <a href="#versnellen">Versnellen</a>
                     <a href="#smoelen">Smoelenboekje</a>
@@ -57,9 +59,16 @@
             <h2 class="roosterh2">Rooster eerstejaars</h2>
             <div class="rooster">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, molestias? Temporibus accusamus tempore, nostrum suscipit cumque nihil, vel quidem cum cupiditate ratione quibusdam quasi adipisci asperiores voluptates nam reprehenderit velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates pariatur, sapiente voluptas officiis laboriosam voluptatem quam eaque nulla in ab a animi porro, aspernatur fugiat quia consequuntur quos sint? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, expedita ipsam culpa quasi saepe vitae eligendi voluptatem veniam quibusdam aliquam nemo pariatur qui illum corrupti excepturi? Voluptatibus commodi ex quidem!</p>
-                <img src="img/rooster1a.jpg" alt="">
+                <img src="img/rooster.jpg" alt="">
             </div>
         </div>
+        <div class="locatie-background" id="location">
+            <div id="locatie">
+                <h2 class="locatieh2">Locatie foto's</h2>
+                <img id="current-image" src="img/image1.jpg" alt="Image 1">
+                <div id="image-thumbs" ></div>
+            </div>
+        </div> 
         <div id="vakken">
             <h2 class="vakkenh2">Vakken eerstejaars</h2>
             <div class="vakken">
@@ -94,6 +103,10 @@
                 <div class="vak">
                     <h3>Studieloopbaanbegeleiding</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem, ex laudantium et id doloribus illo quod temporibus vero unde nobis est saepe non laboriosam? Explicabo odio corporis deserunt. Impedit.</p>
+                </div>
+                <div class="vak">
+                    <h3>Burgerschap</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, quod minima, cupiditate totam ad sed ducimus illum, pariatur voluptatem ex atque eveniet. Sunt pariatur est suscipit vel consectetur unde.</p>
                 </div>
                 <div class="vak">
                     <h3>Por</h3>
