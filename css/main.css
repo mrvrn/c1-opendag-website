@@ -309,6 +309,82 @@ footer a{
   color: #ffbf03;
 }
 
+@media only screen and (max-width: 1050px) {
+  .navbar{
+    width: 100%;
+  }
+
+  .container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .blokken{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .rooster{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .smoel img{
+    width: 180px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #393939;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .navbar{
+    width: 100%;
+  }
+
+  .container{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .blokken{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .rooster{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .vakken{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .smoel img{
+    width: 150px;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #393939;
+  }
+    
+  #locatie { 
+    width: 500px;
+    margin: 0 auto;
+  }
+    
+  #current-image { 
+    width: 100%;
+  }
+  
+  #image-thumbs{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
